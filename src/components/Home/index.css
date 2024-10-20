@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.background-container {
+  display: flex;
+  justify-content: center;
+}
+
+.small-screen-img {
+  width: 300px;
+}
+
+.large-screen-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .large-screen-img {
+    display: block;
+  }
+  .small-screen-img {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+
+.not-found-img {
+  width: 300px;
+}
+
+.not-found-background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.not-found-title {
+  font-size: 20px;
+}
+
+.not-found-description {
+  text-align: center;
+  font-size: 14px;
+  color: #616e7c;
+}
